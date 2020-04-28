@@ -18,8 +18,8 @@ reddit = praw.Reddit(client_id='AAAAAAAAAAAA',
         user_agent='USER_AGENT')
 
 client = boto3.client('rekognition',
-        aws_access_key_id = 'AKIAIRGQAQXDAQ3NPA2Q',
-        aws_secret_access_key = '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',
+        aws_access_key_id = 'CCCCCCCCCCCCCCCCCCC',
+        aws_secret_access_key = 'DDDDDDDDDDDDDDDDDDDDDDDDD',
         region_name='us-east-1')
 
 subreddit = reddit.subreddit('doeshulklivehere')
