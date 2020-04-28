@@ -12,8 +12,8 @@ else:
         posts_replied_to = posts_replied_to.split("\n")
         posts_replied_to = list(filter(None, posts_replied_to))
 
-reddit = praw.Reddit(client_id='MyKX7rKZ4NxquA',
-        client_secret='x-IWsKKJLB6voexds0w8FnvHv38',
+reddit = praw.Reddit(client_id='AAAAAAAAAAAA',
+        client_secret='BBBBBBBBBBBBBBBBBBBB',
         username='DoesHulkLiveHere_bot',
         user_agent='USER_AGENT')
 
